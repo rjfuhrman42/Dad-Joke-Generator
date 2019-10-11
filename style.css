@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
+
+body{
+    margin: 0;
+    background: papayawhip;
+}
+
+header{
+    height: 200px;
+    text-align: center;
+    font-size: 45px;
+    background: #F76C6C;
+    font-family: 'Noto Serif', serif;
+    color: white;
+}
+
+.joke{
+    background: #3c3d47;
+    color: white;
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    width: 50%;
+    padding: 30px;
+    margin: 50px auto;
+    border-radius: 20px;
+}
+
+.jokeContainer{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.joke > p{
+    font-size: 25px;
+    padding: 75px;
+    width: 70%;
+    margin: auto;
+}
+
+p{
+    padding: 75px;
+    margin: 0;
+}
+
+button {
+    background-color: #F76C6C;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /*  Grow  IanLunn @ github */
+  .hvrGrow{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvrGrow:hover, .hvrGrow:focus, .hvrGrow:active{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
